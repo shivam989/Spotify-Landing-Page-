@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--  Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: #000"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./images/logo.png"
+            alt="Logo"
+            width="55"
+            height="60"
+            class="d-inline-block align-text-center"
+          />
+          Spotify <span class="logo-icon"> Favourites</span>
+        </a>
+
+        <form class="d-flex" role="search">
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;margin-top: 18px;margin-right: 20px;"></i>
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <i
+             class="fa-solid fa-bell"   
+            style="font-size: 25px; color: white; margin: 10px 20px 0px 20px"
+          ></i>
+          <div class="user-img">
+            <img
+              src=".//images/ankit.png"
+              alt=""
+            />
+          </div>
+        </form>
+      </div>
+    </nav>
+    <main>
+      <section class="section">
+        <div class="left-section">
+          <section class="section-1">
+            <div class="box" id="box-1">
+              <img src="./images/img-1.jpeg" alt="" />
+            </div>
+            <div class="box" id="box-2">
+              <img src="./images/img-2.jpeg" alt="" />
+            </div>
+            <div class="box" id="box-3">
+              <img src="./images/img-3.jpeg" alt="" />
+            </div>
+          </section>
+          <h1 class="text-light">Latest Release</h1>
+          <div class="latest-release">
+            <div class="col" id="col-1" >
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class=" icon col-md-4" style="width: 30%; height: 150px;">
+                    <img src="./images/img12.jpeg"  class="img-fluid rounded-start" style="width: 100%; height: 100%;">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="h4 text-light">Onism</p>
+                      <p class="h5 text-light" class=" text-body-secondary">Aug 11,2017 </p>
+                      <span class="d-flex justify-content-end text-light">...4.48</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="col-1">
+              <div class="col" id="col-1" >
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class=" icon col-md-4" style="width: 30%; height: 150px;">
+                      <img src="./images/img12.jpeg"   class="img-fluid rounded-start" style="width: 100%; height: 100%;" >
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="h4 text-light">Onism</p>
+                        <p class="h5 text-light" class="text-body-secondary">Aug 11,2017 </p>
+                        <span class="d-flex justify-content-end text-light" >...4.48</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="col-1">
+              <div class="col" id="col-1" >
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class=" icon col-md-4" style="width: 30%; height: 150px;">
+                      <img src="./images/img13.jpeg" class="img-fluid rounded-start" style="width: 100%; height: 100%;" >
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="h4 text-light">Onism</p>
+                        <p class="h5 text-light" class="text-body-secondary">Aug 11,2017 </p>
+                        <span class="d-flex justify-content-end text-light" >...4.48</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="col-1">
+              <div class="col" id="col-1" >
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class=" icon col-md-4" style="width: 30%; height: 150px;">
+                      <img src="./images/img14.jpeg"   class="img-fluid rounded-start" style="width: 100%; height: 100%;">
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="h4 text-light">Onism</p>
+                        <p class="h5 text-light" class="text-body-secondary text-light">Aug 11,2017 </p>
+                        <span class="d-flex justify-content-end text-light" >...4.48</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="col-1">
+              <div class="col" id="col-1" >
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class=" icon col-md-4" style="width: 30%; height: 150px;" >
+                      <img src="./images/img15.jpeg"   class="img-fluid rounded-start" style="width: 100%; height: 100%;" >
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="h4 text-light">Onism</p>
+                        <p class="h5 text-light" class="text-body-secondary">Aug 11,2017  </p>
+                        <span class="d-flex justify-content-end text-light" >...4.48</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="col-1">
+              <div class="col" id="col-1" >
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class=" icon col-md-4" style="width: 30%; height: 150px;">
+                      <img src="./images/img16.jpeg"  class="img-fluid rounded-start" style="width: 100%; height: 100%;" >
+                      <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p class="h4 text-light">Jolt</p>
+                        <p class="h5 text-light" class="text-body-secondary">Aug 11,2017 </small></p>
+                        <span class="d-flex justify-content-end text-light" >...4.48</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 class="h1 text-light">Popular Artists</h1>
+          <div class="popular-artists">
+            <div class="artists">
+              <img src="./images/img20.jpeg" alt="">  
+              <p class="h5 text-light">Ed Sheran</p> 
+            </div>
+             
+            <div class="artists">
+              <img src="./images/img21.jpeg" alt="">
+              <p class="h5 text-light">Taylor Swift</p>
+            </div>
+            <div class="artists">
+              <img src="./images/img22.jpeg" alt="">
+              <p class="h5 text-light">Shakira</p>
+            </div>
+            <div class="artists">
+              <img src="./images/img23.jpeg" alt="">
+              <p class="h5 text-light">Justin Bicher</p>
+            </div>
+            <div class="artists">
+              <img src="./images/img24.jpeg" alt="">
+              <p class="h5 text-light">Selena Comez</p>
+            </div>
+            <div class="artists">
+              <img src="./images/img25.jpeg" alt="">
+              <p class="h5 text-light">Martin</p>
+            </div>
+            <div class="artists">
+              <img src="./images/img26.jpeg" alt="">
+              <p class="h5 text-light">Ed Sheran</p>
+              
+            </div>
+            <div class="artists">
+              <img src="images/img27.jpeg" alt="">
+              <p class="h5 text-light">Taylor Swift</p>
+            </div>
+            <div class="artists">
+              <img src="images/img28.jpeg" alt="">
+              <p class="h5 text-light">Shakira</p>
+            </div>
+            <div class="artists">
+              <img src="images/img29.jpeg" alt="">
+              <p class="h5 text-light">Justine Bicher</p>
+            </div>
+            <div class="artists">
+              <img src="images/img30.jpeg" alt="">
+              <p class="h5 text-light">Selena Gomez</p>
+            </div>
+          </div>
+          <div class="popular-artists-1">
+            <div class="artists-1">
+              <img src="./images/img20.jpeg" alt="">  
+              <p class="h5 text-light">Ed Sheran</p> 
+            </div>
+             
+            <div class="artists-1">
+              <img src="./images/img21.jpeg" alt="">
+              <p class="h5 text-light">Taylor Swift</p>
+            </div>
+            <div class="artists-1">
+              <img src="./images/img22.jpeg" alt="">
+              <p class="h5 text-light">Shakira</p>
+            </div>
+            <div class="artists-1">
+              <img src="./images/img23.jpeg" alt="">
+              <p class="h5 text-light">Justin Bicher</p>
+            </div>
+            <div class="artists-1">
+              <img src="./images/img24.jpeg" alt="">
+              <p class="h5 text-light">Selena Comez</p>
+            </div>
+            <div class="artists-1">
+              <img src="./images/img25.jpeg" alt="">
+              <p class="h5 text-light">Martin</p>
+            </div>
+            <div class="artists-1">
+              <img src="./images/img26.jpeg" alt="">
+              <p class="h5 text-light">Ed Sheran</p>
+              
+            </div>
+            <div class="artists-1">
+              <img src="images/img27.jpeg" alt="">
+              <p class="h5 text-light">Taylor Swift</p>
+            </div>
+            <div class="artists-1">
+              <img src="images/img28.jpeg" alt="">
+              <p class="h5 text-light">Shakira</p>
+            </div>
+            <div class="artists-1">
+              <img src="images/img29.jpeg" alt="">
+              <p class="h5 text-light">Justine Bicher</p>
+            </div>
+            <div class="artists-1">
+              <img src="images/img30.jpeg" alt="">
+              <p class="h5 text-light">Selena Gomez</p>
+            </div>
+          </div>
+          <h1 class="heading-1" style="color: white;">Latest English</h1>
+          <div class="latest-english">
+            <div class="latest-english-1">
+              <img src="./images/img31.jpeg" alt="">
+               <h5 class="h5 text-light">Titanium</h5>
+               <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="./images/img32.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="./images/img33.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img34.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img35.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img36.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img37.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img38.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img39.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img40.jpeg" alt="">
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+          </div>
+          <h1 class="text-light">Latest Hindi</h1>
+          <div class="latest-english">
+            <div class="latest-english-1">
+              <img src="./images/img41.jpeg" alt="">
+               <h5 class="text-light">Titanium</h5>
+               <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="./images/img42.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="./images/img43.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img44.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img45.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img46.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img47.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img48.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img49.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+            <div class="latest-english-1">
+              <img src="images/img50.jpeg" alt="">
+              <h5 class="heading-1">Titanium</h5>
+              <p class="heading-1">Aug 11,2017</p>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+
+
+        <div class="right-section">
+          <div class="div-1">
+            <div id="Queue" class="h3 heading-1">Queue</div>
+            <div class="dropdown">
+              <button id="dropdown" class=" btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Queue
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="div-2">
+              <div class="sub-div">
+                <p class="h6">01</p>
+                <div>
+                  <img src="images/img-1.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">02</p>
+                <div>
+                  <img src="images/img-2.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Justin<br>Bicher</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">03</p>
+                <div>
+                  <img src="images/img-3.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">04</p>
+                <div>
+                  <img src="./images/img11.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">05</p>
+                <div>
+                  <img src="images/img12.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">06</p>
+                <div>
+                  <img src="images/img13.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">07</p>
+                <div>
+                  <img src="images/img14.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">08</p>
+                <div>
+                  <img src="images/img15.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">09</p>
+                <div>
+                  <img src="images/img16.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">10</p>
+                <div>
+                  <img src="images/img30.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">11</p>
+                <div>
+                  <img src="images/img31.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">12</p>
+                <div>
+                  <img src="images/img32.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="sub-div">
+                <p class="h6">13</p>
+                <div>
+                  <img src="images/img20.jpeg" alt="">
+                </div>
+                <div>
+                  <h5 class="title">Mirage...<br>Else</h5>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
